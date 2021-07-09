@@ -4,7 +4,14 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyAR29gi73eR2DWIYcvPuPpGAgUxsjg9nY8",
+  authDomain: "webrtc-demo-5eb76.firebaseapp.com",
+  //databaseURL: "https://webrtc-demo-5eb76-default-rtdb.firebaseio.com",
+  projectId: "webrtc-demo-5eb76",
+  storageBucket: "webrtc-demo-5eb76.appspot.com",
+  messagingSenderId: "310639243792",
+  appId: "1:310639243792:web:609f3586619b9b49ac9095"
+
 };
 
 if (!firebase.apps.length) {
